@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/jfreax/sqlboiler/bdb/drivers"
-	"github.com/jfreax/sqlboiler//boilingcore"
+	"github.com/jfreax/sqlboiler/boilingcore"
 )
 
 const sqlBoilerVersion = "2.7.3"
