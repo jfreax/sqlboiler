@@ -11,7 +11,7 @@ import (
 	_ "github.com/lib/pq"
 	"github.com/pkg/errors"
 	"github.com/jfreax/sqlboiler/bdb"
-	"github.com/volatiletech/sqlboiler/strmangle"
+	"github.com/jfreax/sqlboiler//strmangle"
 )
 
 // PostgresDriver holds the database connection string and a handle

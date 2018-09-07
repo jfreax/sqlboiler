@@ -2,7 +2,7 @@ package drivers
 
 import (
 	"github.com/jfreax/sqlboiler/bdb"
-	"github.com/volatiletech/sqlboiler/strmangle"
+	"github.com/jfreax/sqlboiler//strmangle"
 )
 
 // MockDriver is a mock implementation of the bdb driver Interface

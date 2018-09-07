@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/jfreax/sqlboiler/bdb"
-	"github.com/volatiletech/sqlboiler/queries"
-	"github.com/volatiletech/sqlboiler/strmangle"
+	"github.com/jfreax/sqlboiler//queries"
+	"github.com/jfreax/sqlboiler//strmangle"
 )
 
 // templateData for sqlboiler templates

@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/jfreax/sqlboiler/bdb/drivers"
-	"github.com/volatiletech/sqlboiler/boilingcore"
+	"github.com/jfreax/sqlboiler//boilingcore"
 )
 
 const sqlBoilerVersion = "2.7.3"
@@ -73,7 +73,7 @@ func main() {
 		Use:   "sqlboiler [flags] <driver>",
 		Short: "SQL Boiler generates an ORM tailored to your database schema.",
 		Long: "SQL Boiler generates a Go ORM from template files, tailored to your database schema.\n" +
-			`Complete documentation is available at http://github.com/volatiletech/sqlboiler`,
+			`Complete documentation is available at http://github.com/jfreax/sqlboiler/`,
 		Example:       `sqlboiler postgres`,
 		PreRunE:       preRun,
 		RunE:          run,

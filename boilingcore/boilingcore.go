@@ -15,8 +15,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/jfreax/sqlboiler/bdb"
 	"github.com/jfreax/sqlboiler/bdb/drivers"
-	"github.com/volatiletech/sqlboiler/queries"
-	"github.com/volatiletech/sqlboiler/strmangle"
+	"github.com/jfreax/sqlboiler//queries"
+	"github.com/jfreax/sqlboiler//strmangle"
 )
 
 const (
@@ -269,7 +269,7 @@ func (s *State) processReplacements() error {
 	return nil
 }
 
-var basePackage = "github.com/volatiletech/sqlboiler"
+var basePackage = "github.com/jfreax/sqlboiler/"
 
 func getBasePath(baseDirConfig string) (string, error) {
 	if len(baseDirConfig) > 0 {
