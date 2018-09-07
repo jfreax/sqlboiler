@@ -10,7 +10,7 @@ import (
 	"github.com/kat-co/vala"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/volatiletech/sqlboiler/bdb/drivers"
+	"github.com/jfreax/sqlboiler/bdb/drivers"
 	"github.com/volatiletech/sqlboiler/boilingcore"
 )
 

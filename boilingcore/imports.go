@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/volatiletech/sqlboiler/bdb"
+	"github.com/jfreax/sqlboiler/bdb"
 )
 
 // imports defines the optional standard imports and
@@ -261,7 +261,7 @@ func newImporter() importer {
 			thirdParty: importList{
 				`"github.com/pkg/errors"`,
 				`"github.com/spf13/viper"`,
-				`"github.com/volatiletech/sqlboiler/bdb/drivers"`,
+				`"github.com/jfreax/sqlboiler/bdb/drivers"`,
 				`"github.com/volatiletech/sqlboiler/randomize"`,
 				`_ "github.com/lib/pq"`,
 			},
@@ -280,7 +280,7 @@ func newImporter() importer {
 			thirdParty: importList{
 				`"github.com/pkg/errors"`,
 				`"github.com/spf13/viper"`,
-				`"github.com/volatiletech/sqlboiler/bdb/drivers"`,
+				`"github.com/jfreax/sqlboiler/bdb/drivers"`,
 				`"github.com/volatiletech/sqlboiler/randomize"`,
 				`_ "github.com/go-sql-driver/mysql"`,
 			},
@@ -297,7 +297,7 @@ func newImporter() importer {
 			thirdParty: importList{
 				`"github.com/pkg/errors"`,
 				`"github.com/spf13/viper"`,
-				`"github.com/volatiletech/sqlboiler/bdb/drivers"`,
+				`"github.com/jfreax/sqlboiler/bdb/drivers"`,
 				`"github.com/volatiletech/sqlboiler/randomize"`,
 				`_ "github.com/denisenkom/go-mssqldb"`,
 			},

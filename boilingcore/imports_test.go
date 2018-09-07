@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/volatiletech/sqlboiler/bdb"
+	"github.com/jfreax/sqlboiler/bdb"
 )
 
 func TestImportsSort(t *testing.T) {

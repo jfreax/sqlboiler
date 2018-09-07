@@ -13,8 +13,8 @@ import (
 	"text/template"
 
 	"github.com/pkg/errors"
-	"github.com/volatiletech/sqlboiler/bdb"
-	"github.com/volatiletech/sqlboiler/bdb/drivers"
+	"github.com/jfreax/sqlboiler/bdb"
+	"github.com/jfreax/sqlboiler/bdb/drivers"
 	"github.com/volatiletech/sqlboiler/queries"
 	"github.com/volatiletech/sqlboiler/strmangle"
 )

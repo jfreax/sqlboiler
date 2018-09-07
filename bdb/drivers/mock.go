@@ -1,7 +1,7 @@
 package drivers
 
 import (
-	"github.com/volatiletech/sqlboiler/bdb"
+	"github.com/jfreax/sqlboiler/bdb"
 	"github.com/volatiletech/sqlboiler/strmangle"
 )
 
