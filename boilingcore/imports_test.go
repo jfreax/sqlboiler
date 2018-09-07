@@ -234,7 +234,7 @@ func TestCombineTypeImports(t *testing.T) {
 			`"fmt"`,
 		},
 		thirdParty: importList{
-			`"github.com/jfreax/sqlboiler//boil"`,
+			`"github.com/jfreax/sqlboiler/boil"`,
 		},
 	}
 
@@ -245,7 +245,7 @@ func TestCombineTypeImports(t *testing.T) {
 			`"time"`,
 		},
 		thirdParty: importList{
-			`"github.com/jfreax/sqlboiler//boil"`,
+			`"github.com/jfreax/sqlboiler/boil"`,
 			`"gopkg.in/volatiletech/null.v6"`,
 		},
 	}
@@ -280,7 +280,7 @@ func TestCombineTypeImports(t *testing.T) {
 			`"time"`,
 		},
 		thirdParty: importList{
-			`"github.com/jfreax/sqlboiler//boil"`,
+			`"github.com/jfreax/sqlboiler/boil"`,
 			`"gopkg.in/volatiletech/null.v6"`,
 		},
 	}

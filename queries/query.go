@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/jfreax/sqlboiler//boil"
+	"github.com/jfreax/sqlboiler/boil"
 )
 
 // joinKind is the type of join

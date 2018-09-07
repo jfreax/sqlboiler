@@ -3,7 +3,7 @@ package bdb
 import (
 	"testing"
 
-	"github.com/jfreax/sqlboiler//strmangle"
+	"github.com/jfreax/sqlboiler/strmangle"
 )
 
 type testMockDriver struct{}

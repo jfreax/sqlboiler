@@ -15,8 +15,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/jfreax/sqlboiler/bdb"
 	"github.com/jfreax/sqlboiler/bdb/drivers"
-	"github.com/jfreax/sqlboiler//queries"
-	"github.com/jfreax/sqlboiler//strmangle"
+	"github.com/jfreax/sqlboiler/queries"
+	"github.com/jfreax/sqlboiler/strmangle"
 )
 
 const (

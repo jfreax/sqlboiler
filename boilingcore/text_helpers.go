@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/jfreax/sqlboiler/bdb"
-	"github.com/jfreax/sqlboiler//strmangle"
+	"github.com/jfreax/sqlboiler/strmangle"
 )
 
 // TxtToOne contains text that will be used by templates for a one-to-many or
